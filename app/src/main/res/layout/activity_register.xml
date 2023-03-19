@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register_activity">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/background_color" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-100dp"
+        android:text="register"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="146dp"
+        android:layout_height="146dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/userimage"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="Select Image"
+        android:textColor="#5260D5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@drawable/ic_baseline_person_add_24"
+            android:layout_marginRight="15dp"
+            android:hint="full Name" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@drawable/ic_baseline_person_add_24"
+            android:layout_marginRight="15dp"
+            android:hint="User Name" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:drawableRight="@drawable/ic_baseline_email_24"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@drawable/ic_baseline_phone_android_24"
+            android:layout_marginRight="15dp"
+            android:hint="Phone Number"
+            android:inputType="phone" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:drawableRight="@drawable/ic_baseline_lock_24"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@drawable/ic_baseline_lock_24"
+            android:layout_marginRight="15dp"
+            android:hint="Conform Password"
+            android:inputType="textPassword"
+            android:maxLength="8" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_button"
+            android:text="Sign In" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">My Application 01</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="UserN">user</string>
+    <string name="login">LOGIN</string>
+    <string name="Regbutton">"Register "</string>
+    <string name="profile">Profile</string>
+    <string name="Upemail">Update Email</string>
+    <string name="Upphone">Update Phone No</string>
+    <string name="NewPas">New Password</string>
+    <string name="CurrPass">Current Password</string>
+    <string name="Upnam">Update Name</string>
+    <string name="ChangePw">Change Password</string>
+    <string name="change_image">Change Image</string>
+    <string name="update_email">Update Email</string>
+    <string name="update_phone_no">Update Phone No</string>
+    <string name="update_user_name">Update User Name</string>
+    <string name="full_name">Full Name</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="delete">Delete</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="Order">Oder</string>
+    <string name="Paycode">Pay Code</string>
+    <string name="Tracking">Tracking</string>
+    <string name="oder_tracking">Order Tracking</string>
+    <string name="net_total_1_20_05">Net Total = 1 * $20.05</string>
+    <string name="price_20_05">Price = $20.05</string>
+    <string name="hair_care">HAIR CARE</string>
+    <string name="shampoo_bar_seth">Shampoo Bar SETH</string>
+    <string name="tracking_code">Tracking Code</string>
+    <string name="save">Save</string>
+    <string name="cancle_order">Cancle Order</string>
+    <string name="payment_reference_code">Payment Reference Code</string>
+    <string name="handmade">HandMade</string>
+    <string name="spices">Spices</string>
+    <string name="total_ammount">Total Ammount</string>
+    <string name="save_and_confirm">Save And Confirm</string>
+    <string name="payment">Payment</string>
+    <string name="my_cart">My Cart</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="checkout">Checkout</string>
+
+
+    <string-array name="Qty">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+</resources>
+
